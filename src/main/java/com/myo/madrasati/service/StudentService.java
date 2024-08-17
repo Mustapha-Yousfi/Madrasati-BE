@@ -41,6 +41,12 @@ public class StudentService {
     }
 
     public Student getStudentById(int studentId) {
-        return studentRepo.findById(studentId).get();
+        return studentRepo.findById(studentId).orElse(null);
+    }
+
+    public List<Student> searchStudents(String keyword) {
+        var p =  studentRepo.search(keyword);
+        System.out.println(p);
+        return p;
     }
 }
