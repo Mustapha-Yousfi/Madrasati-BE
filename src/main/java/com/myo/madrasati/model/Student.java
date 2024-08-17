@@ -1,4 +1,4 @@
-package com.myo.madrasati.models;
+package com.myo.madrasati.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

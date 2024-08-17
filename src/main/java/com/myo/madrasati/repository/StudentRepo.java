@@ -1,6 +1,6 @@
-package com.myo.madrasati.repositories;
+package com.myo.madrasati.repository;
 
-import com.myo.madrasati.models.Student;
+import com.myo.madrasati.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

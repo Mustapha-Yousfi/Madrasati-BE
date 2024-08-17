@@ -1,13 +1,14 @@
-package com.myo.madrasati.controllers;
+package com.myo.madrasati.controller;
 
-import com.myo.madrasati.models.Student;
-import com.myo.madrasati.services.StudentService;
+import com.myo.madrasati.model.Student;
+import com.myo.madrasati.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/api")
 public class StudentController {
 
     @Autowired

@@ -1,12 +1,10 @@
-package com.myo.madrasati.services;
+package com.myo.madrasati.service;
 
-import com.myo.madrasati.models.Student;
-import com.myo.madrasati.repositories.StudentRepo;
+import com.myo.madrasati.model.Student;
+import com.myo.madrasati.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Service
