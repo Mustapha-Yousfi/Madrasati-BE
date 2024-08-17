@@ -1,10 +1,18 @@
 package com.myo.madrasati.models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Student {
 
+    @Id
     private int id;
     private String firstName;
     private String lastName;
+
+    public Student() {
+    }
 
     public Student(int id, String firstName, String lastName) {
         this.id = id;
